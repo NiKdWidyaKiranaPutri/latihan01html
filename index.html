@@ -19,7 +19,33 @@
       border-collapse: collapse; }
     th{text-align: center;}
     tr:hover{background-color: #7396b9;}
-    
+    img{
+      width: 60px;
+      height: 60px;
+    }
+    label{font-size: 14px;font-weight: bold;}
+    input[type=text],input[type=number],input[type=date],input[type=time],input[type=password] 
+  {
+      width: 100%;
+      padding: 12px 20px;
+      border-radius: 5px;
+      margin: 8px 0;
+      color: aliceblue;
+      background-color: #003a74;
+      font-size: 26px;
+    }
+    select{
+      width: 100%;
+      padding: 12px 20px;
+      border-radius: 5px;
+      margin: 8px 0;
+      color: aliceblue;
+      background-color: #003a74;
+      font-size: 20px;
+    }
+    input[type=checkbox],input[type=radio]{
+      outline: 1px solid #c0c0c0;
+    }
   </style>
 </head>
 
@@ -33,7 +59,7 @@
   
 
 <p>Pada hari minggu ku turut ayah ke kota,<br> <strong>NAIK DELMAN</strong> istimewa ku duduk dimuka.. <br>ku duduk disamping pak kusir yang sedang bekerja <br>mengendarai kuda supaya baik jalannyaaa <i>heii...</i> <br> <b>USAI</b> sudah semua cerita..<br>yang tlah kita ukir berdua, <br>meninggalkan dirimu adalah <u>hal terberat yang harus ku jalani</u>..<br> aku memang kehilangan,, kamu yang sangat kucintai.. <br>namun kau telah kehilangan aku yang sangat mencintaimu...
-<br> <b>INTRO</b> How can i tell if i'm in the right relationship.. <br>aren't you really supposed to know that sht..<br> feel it in your bones to know that sht..<br>i don't know... <br>then i had this interaction i've been thinking bout like five weeks..<br> wonder he's thinking bout it too and smiling..<br>wonder if he knows that's that what's inspiring me.. <br>wonder if he judging me like i'm right know..<br> i don't care..<br> i'd rather tell the truth.. <br>then make it worst for you.. <br>if the sun,,<br> refused to shine.. <br>baby would i still be your lover,, <br>would you want me there <br>if the moon when dark tonight... <br>and if it all ended tommorow...<br>whould i'll be the one on your mind...<br> your mind... your mind.. <br>and it if all ended tommorow <br>would you be the one on mine
+<br> <img src="intro.png"> <b>INTRO</b> How can i tell if i'm in the right relationship.. <br>aren't you really supposed to know that sht..<br> feel it in your bones to know that sht..<br>i don't know... <br>then i had this interaction i've been thinking bout like five weeks..<br> wonder he's thinking bout it too and smiling..<br>wonder if he knows that's that what's inspiring me.. <br>wonder if he judging me like i'm right know..<br> i don't care..<br> i'd rather tell the truth.. <br>then make it worst for you.. <br>if the sun,,<br> refused to shine.. <br>baby would i still be your lover,, <br>would you want me there <br>if the moon when dark tonight... <br>and if it all ended tommorow...<br>whould i'll be the one on your mind...<br> your mind... your mind.. <br>and it if all ended tommorow <br>would you be the one on mine
 <h3> List Lagu</h3>
 <ul>
   <li>Naik delman</li>
@@ -78,6 +104,36 @@
   </table>
 </p>
 
+<form>
+  <label>Form Text</label>
+  <input type="text" name="txalamat" value="isikan alamat" id="txalamat" class="txalamat">
+  <label>Form Number</label>
+  <input type="number">
+  <label> Form Tgl</label>
+  <input type="date">
+  <label> Form Time</label>
+  <input type="time">
+  <label> Form Pilihan</label>
+  <input type="radio" name="jnsk">Laki-laki
+  <input type="radio" name="jnsk">Perempuan
+  <br>
+  <input type="checkbox">Sepak bola
+  <input type="checkbox">Silat
+  <input type="checkbox">Tinju
+  <input type="checkbox">Acting
+  <label>Form pilihan lain</label>
+  <select>
+    <option disabled selected>Silahkan pilih warna</option>
+    <option>Merah</option>
+    <option>Putih</option>
+    <option>Biru</option>
+  </select>
+  <label>Form Password</label>
+  <input type="password" name="txPASS">
+
+
+  <input type="submit" value="Tombol">
+</form>
   <button onclick="console.log('klik');">jangan diklik</button>
 
   <script defer type="text/javascript" src="/main.js"></script>
